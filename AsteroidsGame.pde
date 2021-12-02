@@ -18,6 +18,9 @@ public void draw(){
 
 public void keyPressed(){
   if(key=='s'){
+    amongUs.myXspeed=0;
+    amongUs.myYspeed=0;
+    amongUs.turn((int)(Math.random()*360));
     amongUs.myCenterX=(int)(Math.random()*500);
     amongUs.myCenterY=(int)(Math.random()*500);
   }
